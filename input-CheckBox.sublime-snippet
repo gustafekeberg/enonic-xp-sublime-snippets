@@ -7,9 +7,7 @@
 </input>
 
 ]]></content>
-	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<!-- <tabTrigger>xpCheckBox</tabTrigger> -->
-	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<tabTrigger>xpCheckBox</tabTrigger>
 	<scope>text.xml</scope>
 	<description>Enonic XP - CheckBox</description>
 </snippet>

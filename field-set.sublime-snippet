@@ -8,9 +8,7 @@
 </field-set>
 
 ]]></content>
-  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <!-- <tabTrigger>xpFieldSet</tabTrigger> -->
-  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<tabTrigger>xpFieldSet</tabTrigger>
   <scope>text.xml</scope>
   <description>Enonic XP - Field Set</description>
 </snippet>

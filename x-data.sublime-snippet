@@ -3,9 +3,7 @@
 <x-data mixin="$1"/>
 
 ]]></content>
-	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<!-- <tabTrigger>xpXData</tabTrigger> -->
-	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<tabTrigger>xpXData</tabTrigger>
 	<scope>text.xml</scope>
 	<description>Enonic XP - x-data</description>
 </snippet>

@@ -9,10 +9,7 @@
 </mixin>
 
 ]]></content>
-	<!-- Optional: Tab trigger to activate the snippet -->
-	<!-- <tabTrigger>xpMixin</tabTrigger> -->
-	<!-- Optional: Scope the tab trigger will be active in -->
+	<tabTrigger>xpMixin</tabTrigger>
 	<scope>text.xml</scope>
-	<!-- Optional: Description to show in the menu -->
 	<description>Enonic XP - Mixin</description>
 </snippet>

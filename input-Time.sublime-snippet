@@ -6,9 +6,7 @@
 </input>
 
 ]]></content>
-	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<!-- <tabTrigger>xpTime</tabTrigger> -->
-	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<tabTrigger>xpTime</tabTrigger>
 	<scope>text.xml</scope>
 	<description>Enonic XP - Time</description>
 </snippet>

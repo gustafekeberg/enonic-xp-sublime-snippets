@@ -20,10 +20,7 @@
 </content-type>
 
 ]]></content>
-  <!-- Optional: Tab trigger to activate the snippet -->
-  <!-- <tabTrigger>xpContentType</tabTrigger> -->
-  <!-- Optional: Scope the tab trigger will be active in -->
+  <tabTrigger>xpContentType</tabTrigger>
   <scope>text.xml</scope>
-  <!-- Optional: Description to show in the menu -->
   <description>Enonic XP - Content Type</description>
 </snippet>

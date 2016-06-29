@@ -10,10 +10,7 @@
 </layout>
 
 ]]></content>
-  <!-- Optional: Tab trigger to activate the snippet -->
-  <!-- <tabTrigger>xpLayout</tabTrigger> -->
-  <!-- Optional: Scope the tab trigger will be active in -->
+  <tabTrigger>xpLayout</tabTrigger>
   <scope>text.xml</scope>
-  <!-- Optional: Description to show in the menu -->
   <description>Enonic XP - Layout</description>
 </snippet>

@@ -12,10 +12,7 @@
 </page>
 
 ]]></content>
-  <!-- Optional: Tab trigger to activate the snippet -->
-  <!-- <tabTrigger>xpPage</tabTrigger> -->
-  <!-- Optional: Scope the tab trigger will be active in -->
+  <tabTrigger>xpPage</tabTrigger>
   <scope>text.xml</scope>
-  <!-- Optional: Description to show in the menu -->
   <description>Enonic XP - Page</description>
 </snippet>
