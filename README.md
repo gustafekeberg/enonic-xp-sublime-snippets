@@ -4,122 +4,6 @@ Sublime Text 3 snippets for Enonic XP
 
 Included snippets:
 
-## site.sublime-snippet
-
-```xml
-<snippet>
-  <content><![CDATA[
-<?xml version="1.0" encoding="UTF-8"?>
-<site>
-  ${1:<filters>
-    $2
-  </filters>}
-  ${3:<mappings>
-    $4
-  </mappings>}
-  ${5:<x-data mixin="$6"/>}
-  ${7:<config>
-    $8
-  </config>}
-</site>
-]]></content>
-  <tabTrigger>xpSite</tabTrigger>
-  <scope>text.xml</scope>
-  <description>Enonic XP - Site</description>
-</snippet>
-```
-
-## mapping.sublime-snippet
-
-```xml
-<snippet>
-  <content><![CDATA[
-<mapping controller="$1">
-  <match>${2:type:'portal:fragment'}</match>
-  ${3:<pattern invert="${4:true}">${5:.*\/_\/.*}</pattern>}
-</mapping>
-]]></content>
-  <tabTrigger>xpMapping</tabTrigger>
-  <scope>text.xml</scope>
-  <description>Enonic XP - Mapping</description>
-</snippet>
-```
-
-## mappings.sublime-snippet
-
-```xml
-<snippet>
-  <content><![CDATA[
-<mappings>
-  ${1:$SELECTION}
-</mappings>
-]]></content>
-  <tabTrigger>xpMappings</tabTrigger>
-  <scope>text.xml</scope>
-  <description>Enonic XP - Mappings</description>
-</snippet>
-```
-
-## filters.sublime-snippet
-
-```xml
-<snippet>
-  <content><![CDATA[
-<filters>
-  ${1:$SELECTION}
-</filters>
-]]></content>
-  <tabTrigger>xpFilters</tabTrigger>
-  <scope>text.xml</scope>
-  <description>Enonic XP - Filters</description>
-</snippet>
-```
-
-## response-filter.sublime-snippet
-
-```xml
-<snippet>
-  <content><![CDATA[
-<response-filter name="$1" order="$2"/>
-]]></content>
-  <tabTrigger>xpResponseFilter</tabTrigger>
-  <scope>text.xml</scope>
-  <description>Enonic XP - Response Filter</description>
-</snippet>
-```
-
-## mixin.sublime-snippet
-
-```xml
-<snippet>
-  <content><![CDATA[
-<?xml version="1.0" encoding="UTF-8"?>
-<mixin>
-  <display-name>$1</display-name>
-  <items>
-    $0
-  </items>
-</mixin>
-]]></content>
-  <tabTrigger>xpMixin</tabTrigger>
-  <scope>text.xml</scope>
-  <description>Enonic XP - Mixin</description>
-</snippet>
-```
-
-## x-data.sublime-snippet
-
-```xml
-<snippet>
-  <content><![CDATA[
-<x-data mixin="$1"/>
-]]></content>
-  <tabTrigger>xpXData</tabTrigger>
-  <scope>text.xml</scope>
-  <description>Enonic XP - x-data</description>
-</snippet>
-```
-
 ## content-type.sublime-snippet
 
 ```xml
@@ -144,72 +28,6 @@ Included snippets:
 </snippet>
 ```
 
-## page.sublime-snippet
-
-```xml
-<snippet>
-  <content><![CDATA[
-<?xml version="1.0" encoding="UTF-8"?>
-<page>
-  <display-name>$1</display-name>
-  <config>
-    $3
-  </config>
-  <regions>
-    <region name="$2"/>
-  </regions>
-</page>
-]]></content>
-  <tabTrigger>xpPage</tabTrigger>
-  <scope>text.xml</scope>
-  <description>Enonic XP - Page</description>
-</snippet>
-```
-
-## layout.sublime-snippet
-
-```xml
-<snippet>
-  <content><![CDATA[
-<?xml version="1.0" encoding="UTF-8"?>
-<layout>
-  <display-name>$1</display-name>
-  <config/>
-  <regions>
-    <region name="$2"/>
-  </regions>
-</layout>
-]]></content>
-  <tabTrigger>xpLayout</tabTrigger>
-  <scope>text.xml</scope>
-  <description>Enonic XP - Layout</description>
-</snippet>
-```
-
-## part.sublime-snippet
-
-```xml
-<snippet>
-  <content><![CDATA[
-<?xml version="1.0" encoding="UTF-8"?>
-<part>
-  <display-name>$1</display-name>
-  <config>
-    <field-set name="$2">
-      <label>$3</label>
-      <items>
-        $0
-      </items>
-    </field-set>
-  </config>
-</part>
-]]></content>
-  <tabTrigger>xpPart</tabTrigger>
-  <scope>text.xml</scope>
-  <description>Enonic XP - Part</description>
-</snippet>
-```
-
 ## field-set.sublime-snippet
 
 ```xml
@@ -228,22 +46,31 @@ Included snippets:
 </snippet>
 ```
 
-## item-set.sublime-snippet
+## filters.sublime-snippet
 
 ```xml
 <snippet>
   <content><![CDATA[
-<item-set name="$1">
-  <label>$2</label>
-  <occurrences minimum="$3" maximum="$4"/>
-  <items>
-    ${0:$SELECTION}
-  </items>
-</item-set>
+<filters>
+  ${1:$SELECTION}
+</filters>
 ]]></content>
-  <tabTrigger>xpItemSet</tabTrigger>
+  <tabTrigger>xpFilters</tabTrigger>
   <scope>text.xml</scope>
-  <description>Enonic XP - Item Set</description>
+  <description>Enonic XP - Filters</description>
+</snippet>
+```
+
+## inline.sublime-snippet
+
+```xml
+<snippet>
+  <content><![CDATA[
+<inline mixin="$1"/>
+]]></content>
+  <tabTrigger>xpInline</tabTrigger>
+  <scope>text.xml</scope>
+  <description>Enonic XP - inline</description>
 </snippet>
 ```
 
@@ -528,5 +355,191 @@ Included snippets:
   <tabTrigger>xpTime</tabTrigger>
   <scope>text.xml</scope>
   <description>Enonic XP - Time</description>
+</snippet>
+```
+
+## item-set.sublime-snippet
+
+```xml
+<snippet>
+  <content><![CDATA[
+<item-set name="$1">
+  <label>$2</label>
+  <occurrences minimum="$3" maximum="$4"/>
+  <items>
+    ${0:$SELECTION}
+  </items>
+</item-set>
+]]></content>
+  <tabTrigger>xpItemSet</tabTrigger>
+  <scope>text.xml</scope>
+  <description>Enonic XP - Item Set</description>
+</snippet>
+```
+
+## layout.sublime-snippet
+
+```xml
+<snippet>
+  <content><![CDATA[
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+  <display-name>$1</display-name>
+  <config/>
+  <regions>
+    <region name="$2"/>
+  </regions>
+</layout>
+]]></content>
+  <tabTrigger>xpLayout</tabTrigger>
+  <scope>text.xml</scope>
+  <description>Enonic XP - Layout</description>
+</snippet>
+```
+
+## mapping.sublime-snippet
+
+```xml
+<snippet>
+  <content><![CDATA[
+<mapping controller="$1">
+  <match>${2:type:'portal:fragment'}</match>
+  ${3:<pattern invert="${4:true}">${5:.*\/_\/.*}</pattern>}
+</mapping>
+]]></content>
+  <tabTrigger>xpMapping</tabTrigger>
+  <scope>text.xml</scope>
+  <description>Enonic XP - Mapping</description>
+</snippet>
+```
+
+## mappings.sublime-snippet
+
+```xml
+<snippet>
+  <content><![CDATA[
+<mappings>
+  ${1:$SELECTION}
+</mappings>
+]]></content>
+  <tabTrigger>xpMappings</tabTrigger>
+  <scope>text.xml</scope>
+  <description>Enonic XP - Mappings</description>
+</snippet>
+```
+
+## mixin.sublime-snippet
+
+```xml
+<snippet>
+  <content><![CDATA[
+<?xml version="1.0" encoding="UTF-8"?>
+<mixin>
+  <display-name>$1</display-name>
+  <items>
+    $0
+  </items>
+</mixin>
+]]></content>
+  <tabTrigger>xpMixin</tabTrigger>
+  <scope>text.xml</scope>
+  <description>Enonic XP - Mixin</description>
+</snippet>
+```
+
+## page.sublime-snippet
+
+```xml
+<snippet>
+  <content><![CDATA[
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+  <display-name>$1</display-name>
+  <config>
+    $3
+  </config>
+  <regions>
+    <region name="$2"/>
+  </regions>
+</page>
+]]></content>
+  <tabTrigger>xpPage</tabTrigger>
+  <scope>text.xml</scope>
+  <description>Enonic XP - Page</description>
+</snippet>
+```
+
+## part.sublime-snippet
+
+```xml
+<snippet>
+  <content><![CDATA[
+<?xml version="1.0" encoding="UTF-8"?>
+<part>
+  <display-name>$1</display-name>
+  <config>
+    <field-set name="$2">
+      <label>$3</label>
+      <items>
+        $0
+      </items>
+    </field-set>
+  </config>
+</part>
+]]></content>
+  <tabTrigger>xpPart</tabTrigger>
+  <scope>text.xml</scope>
+  <description>Enonic XP - Part</description>
+</snippet>
+```
+
+## response-filter.sublime-snippet
+
+```xml
+<snippet>
+  <content><![CDATA[
+<response-filter name="$1" order="$2"/>
+]]></content>
+  <tabTrigger>xpResponseFilter</tabTrigger>
+  <scope>text.xml</scope>
+  <description>Enonic XP - Response Filter</description>
+</snippet>
+```
+
+## site.sublime-snippet
+
+```xml
+<snippet>
+  <content><![CDATA[
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+  ${1:<filters>
+    $2
+  </filters>}
+  ${3:<mappings>
+    $4
+  </mappings>}
+  ${5:<x-data mixin="$6"/>}
+  ${7:<config>
+    $8
+  </config>}
+</site>
+]]></content>
+  <tabTrigger>xpSite</tabTrigger>
+  <scope>text.xml</scope>
+  <description>Enonic XP - Site</description>
+</snippet>
+```
+
+## x-data.sublime-snippet
+
+```xml
+<snippet>
+  <content><![CDATA[
+<x-data mixin="$1"/>
+]]></content>
+  <tabTrigger>xpXData</tabTrigger>
+  <scope>text.xml</scope>
+  <description>Enonic XP - x-data</description>
 </snippet>
 ```
