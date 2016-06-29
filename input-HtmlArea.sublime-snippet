@@ -4,7 +4,6 @@
 	<label>$2</label>
 	<default>${3:<h3>Enter data for `$1` here</h3>}</default>
 </input>
-
 ]]></content>
 	<tabTrigger>xpHtmlArea</tabTrigger>
 	<scope>text.xml</scope>

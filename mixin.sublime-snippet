@@ -4,10 +4,9 @@
 <mixin>
 	<display-name>$1</display-name>
 	<items>
-		$2
+		$0
 	</items>
 </mixin>
-
 ]]></content>
 	<tabTrigger>xpMixin</tabTrigger>
 	<scope>text.xml</scope>

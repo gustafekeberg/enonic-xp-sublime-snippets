@@ -7,7 +7,6 @@
 		<allowPath>${5:./*}</allowPath>
 	</config>
 </input>
-
 ]]></content>
 	<tabTrigger>xpImageSelector</tabTrigger>
 	<scope>text.xml</scope>

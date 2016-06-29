@@ -3,7 +3,6 @@
 <mappings>
 	${1:$SELECTION}
 </mappings>
-
 ]]></content>
 	<tabTrigger>xpMappings</tabTrigger>
 	<scope>text.xml</scope>

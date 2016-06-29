@@ -1,7 +1,6 @@
 <snippet>
 	<content><![CDATA[
 <x-data mixin="$1"/>
-
 ]]></content>
 	<tabTrigger>xpXData</tabTrigger>
 	<scope>text.xml</scope>

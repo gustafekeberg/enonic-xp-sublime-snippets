@@ -1,15 +1,14 @@
 <snippet>
-  <content><![CDATA[
+	<content><![CDATA[
 <item-set name="$1">
-  <label>$2</label>
-  <occurrences minimum="$3" maximum="$4"/>
-  <items>
-    ${5:$SELECTION}
-  </items>
+	<label>$2</label>
+	<occurrences minimum="$3" maximum="$4"/>
+	<items>
+		${0:$SELECTION}
+	</items>
 </item-set>
-
 ]]></content>
-  <tabTrigger>xpItemSet</tabTrigger>
-  <scope>text.xml</scope>
-  <description>Enonic XP - Item Set</description>
+	<tabTrigger>xpItemSet</tabTrigger>
+	<scope>text.xml</scope>
+	<description>Enonic XP - Item Set</description>
 </snippet>

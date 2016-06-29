@@ -1,16 +1,15 @@
 <snippet>
-  <content><![CDATA[
+	<content><![CDATA[
 <?xml version="1.0" encoding="UTF-8"?>
 <layout>
-  <display-name>$1</display-name>
-  <config/>
-  <regions>
-    <region name="$2"/>
-  </regions>
+	<display-name>$1</display-name>
+	<config/>
+	<regions>
+		<region name="$2"/>
+	</regions>
 </layout>
-
 ]]></content>
-  <tabTrigger>xpLayout</tabTrigger>
-  <scope>text.xml</scope>
-  <description>Enonic XP - Layout</description>
+	<tabTrigger>xpLayout</tabTrigger>
+	<scope>text.xml</scope>
+	<description>Enonic XP - Layout</description>
 </snippet>

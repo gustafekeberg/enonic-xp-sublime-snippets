@@ -4,7 +4,6 @@
 	<label>$2</label>
 	<default>${3:42}</default>
 </input>
-
 ]]></content>
 	<tabTrigger>xpLong</tabTrigger>
 	<scope>text.xml</scope>

@@ -1,14 +1,13 @@
 <snippet>
-  <content><![CDATA[
+	<content><![CDATA[
 <field-set name="$1">
-  <label>$2</label>
-  <items>
-    ${3:$SELECTION}
-  </items>
+	<label>$2</label>
+	<items>
+		${3:$SELECTION}
+	</items>
 </field-set>
-
 ]]></content>
 	<tabTrigger>xpFieldSet</tabTrigger>
-  <scope>text.xml</scope>
-  <description>Enonic XP - Field Set</description>
+	<scope>text.xml</scope>
+	<description>Enonic XP - Field Set</description>
 </snippet>

@@ -1,16 +1,15 @@
 <snippet>
 	<content><![CDATA[
 <input name="$1" type="ComboBox">
-  <label>$2</label>
-  <occurrences minimum="$3" maximum="$4"/>
-  <config>
-    <option value="$5">$6</option>
-  </config>
-  <default>$5</default>
+	<label>$2</label>
+	<occurrences minimum="$3" maximum="$4"/>
+	<config>
+		<option value="$5">$6</option>
+	</config>
+	<default>$5</default>
 </input>
-
 ]]></content>
-  <tabTrigger>xpComboBox</tabTrigger>
-  <scope>text.xml</scope>
-  <description>Enonic XP - ComboBox</description>
+	<tabTrigger>xpComboBox</tabTrigger>
+	<scope>text.xml</scope>
+	<description>Enonic XP - ComboBox</description>
 </snippet>

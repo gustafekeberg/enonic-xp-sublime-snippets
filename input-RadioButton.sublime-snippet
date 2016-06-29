@@ -8,9 +8,8 @@
 	</config>
 	<default>$5</default>
 </input>
-
 ]]></content>
-		<tabTrigger>xpRadioButton</tabTrigger>
-		<scope>text.xml</scope>
-		<description>Enonic XP - RadioButton</description>
-	</snippet>
+	<tabTrigger>xpRadioButton</tabTrigger>
+	<scope>text.xml</scope>
+	<description>Enonic XP - RadioButton</description>
+</snippet>

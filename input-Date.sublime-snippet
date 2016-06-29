@@ -1,15 +1,14 @@
 <snippet>
 	<content><![CDATA[
 <input name="$1" type="Date">
-  <label>$2</label>
-  <occurrences minimum="$3" maximum="$4"/>
-  <config>
-    <timezone>${5:true}</timezone>
-  </config>
+	<label>$2</label>
+	<occurrences minimum="$3" maximum="$4"/>
+	<config>
+		<timezone>${5:true}</timezone>
+	</config>
 </input>
-
 ]]></content>
 	<tabTrigger>xpDate</tabTrigger>
-  <scope>text.xml</scope>
-  <description>Enonic XP - Date</description>
+	<scope>text.xml</scope>
+	<description>Enonic XP - Date</description>
 </snippet>

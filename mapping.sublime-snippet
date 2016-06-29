@@ -1,11 +1,9 @@
 <snippet>
 	<content><![CDATA[
-<!-- $1 -->
-<mapping controller="$2">
-	<match>${3:type:'portal:fragment'}</match>
-	${4:<pattern invert="${5:true}">${6:.*\/_\/.*}</pattern>}
+<mapping controller="$1">
+	<match>${2:type:'portal:fragment'}</match>
+	${3:<pattern invert="${4:true}">${5:.*\/_\/.*}</pattern>}
 </mapping>
-
 ]]></content>
 	<tabTrigger>xpMapping</tabTrigger>
 	<scope>text.xml</scope>

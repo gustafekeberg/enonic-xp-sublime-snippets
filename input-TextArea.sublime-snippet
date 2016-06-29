@@ -4,7 +4,6 @@
 	<label>$2</label>
 	<default>${3:Description goes here}</default>
 </input>
-
 ]]></content>
 	<tabTrigger>xpTextArea</tabTrigger>
 	<scope>text.xml</scope>

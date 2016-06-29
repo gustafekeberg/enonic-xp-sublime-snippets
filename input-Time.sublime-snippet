@@ -4,7 +4,6 @@
 	<label>$2</label>
 	<occurrences minimum="$3" maximum="$4"/>
 </input>
-
 ]]></content>
 	<tabTrigger>xpTime</tabTrigger>
 	<scope>text.xml</scope>

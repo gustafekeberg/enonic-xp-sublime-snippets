@@ -3,7 +3,6 @@
 <filters>
 	${1:$SELECTION}
 </filters>
-
 ]]></content>
 	<tabTrigger>xpFilters</tabTrigger>
 	<scope>text.xml</scope>

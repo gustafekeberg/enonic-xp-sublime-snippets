@@ -1,7 +1,6 @@
 <snippet>
 	<content><![CDATA[
 <response-filter name="$1" order="$2"/>
-
 ]]></content>
 	<tabTrigger>xpResponseFilter</tabTrigger>
 	<scope>text.xml</scope>

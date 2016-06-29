@@ -1,17 +1,16 @@
 <snippet>
-  <content><![CDATA[
+	<content><![CDATA[
 <input name="$1" type="ContentSelector">
-  <label>$2</label>
-  <occurrences minimum="$3" maximum="$4"/>
-  <config>
-    <relationship>system:reference</relationship>
-    <allowType>$5</allowType>
-    <allowPath>\${site\}/$6/</allowPath>
-  </config>
+	<label>$2</label>
+	<occurrences minimum="$3" maximum="$4"/>
+	<config>
+		<relationship>system:reference</relationship>
+		<allowType>$5</allowType>
+		<allowPath>\${site\}/$6/</allowPath>
+	</config>
 </input>
-
 ]]></content>
-  <tabTrigger>xpContentSelector</tabTrigger>
-  <scope>text.xml</scope>
-  <description>Enonic XP - ContentSelector</description>
+	<tabTrigger>xpContentSelector</tabTrigger>
+	<scope>text.xml</scope>
+	<description>Enonic XP - ContentSelector</description>
 </snippet>

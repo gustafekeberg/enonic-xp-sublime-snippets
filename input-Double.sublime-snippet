@@ -4,7 +4,6 @@
 	<label>$2</label>
 	<default>${3:3.14159265359}</default>
 </input>
-
 ]]></content>
 	<tabTrigger>xpDouble</tabTrigger>
 	<scope>text.xml</scope>
