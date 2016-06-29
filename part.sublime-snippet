@@ -1,0 +1,23 @@
+<snippet>
+	<content><![CDATA[
+<?xml version="1.0" encoding="UTF-8"?>
+<part>
+	<display-name>$1</display-name>
+	<config>
+		<field-set name="$2">
+			<label>$3</label>
+			<items>
+				$4
+			</items>
+		</field-set>
+	</config>
+</part>
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<!-- <tabTrigger>xpPart</tabTrigger> -->
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>text.xml</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>Enonic XP - Part</description>
+</snippet>

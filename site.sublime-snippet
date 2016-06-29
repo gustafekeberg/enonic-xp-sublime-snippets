@@ -1,0 +1,22 @@
+<snippet>
+	<content><![CDATA[
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+	${1:<filters>
+		$2
+	</filters>}
+	${3:<mappings>
+		$4
+	</mappings>}
+	${5:<x-data mixin="$6"/>}
+	${7:<config>
+		$8
+	</config>}
+</site>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>xpSite</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.xml</scope>
+	<description>Enonic XP - Site</description>
+</snippet>

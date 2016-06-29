@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+<input name="$1" type="Long">
+	<label>$2</label>
+	<default>${3:42}</default>
+</input>
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>xpLong</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.xml</scope>
+	<description>Enonic XP - Long</description>
+</snippet>

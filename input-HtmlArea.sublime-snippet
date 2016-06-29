@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+<input name="$1" type="HtmlArea">
+	<label>$2</label>
+	<default>${3:<h3>Enter data for `$1` here</h3>}</default>
+</input>
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>xpHtmlArea</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.xml</scope>
+	<description>Enonic XP - HtmlArea</description>
+</snippet>

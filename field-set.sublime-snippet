@@ -1,0 +1,16 @@
+<snippet>
+  <content><![CDATA[
+<field-set name="$1">
+  <label>$2</label>
+  <items>
+    ${3:$SELECTION}
+  </items>
+</field-set>
+
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <!-- <tabTrigger>xpFieldSet</tabTrigger> -->
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>text.xml</scope>
+  <description>Enonic XP - Field Set</description>
+</snippet>

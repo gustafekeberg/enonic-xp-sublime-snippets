@@ -1,0 +1,29 @@
+<snippet>
+  <content><![CDATA[
+<?xml version="1.0" encoding="UTF-8"?>
+<content-type>
+  <display-name>$1</display-name>
+  <!-- <content-display-name-script>$('firstName', ' ', 'lastName')</content-display-name-script> -->
+  <super-type>base:structured</super-type>
+  <is-abstract>false</is-abstract>
+  <is-final>true</is-final>
+  <allow-child-content>true</allow-child-content>
+  <form>
+    ${2:<!-- <input name="2" type="ComboBox">
+      <label>Choice1</label>
+      <occurrences minimum="0" maximum="1"/>
+      <config>
+        ...
+      </config>
+    </input> -->}
+  </form>
+</content-type>
+
+]]></content>
+  <!-- Optional: Tab trigger to activate the snippet -->
+  <!-- <tabTrigger>xpContentType</tabTrigger> -->
+  <!-- Optional: Scope the tab trigger will be active in -->
+  <scope>text.xml</scope>
+  <!-- Optional: Description to show in the menu -->
+  <description>Enonic XP - Content Type</description>
+</snippet>

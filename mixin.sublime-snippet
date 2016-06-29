@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+<?xml version="1.0" encoding="UTF-8"?>
+<mixin>
+	<display-name>$1</display-name>
+	<items>
+		$2
+	</items>
+</mixin>
+
+]]></content>
+	<!-- Optional: Tab trigger to activate the snippet -->
+	<!-- <tabTrigger>xpMixin</tabTrigger> -->
+	<!-- Optional: Scope the tab trigger will be active in -->
+	<scope>text.xml</scope>
+	<!-- Optional: Description to show in the menu -->
+	<description>Enonic XP - Mixin</description>
+</snippet>

@@ -1,0 +1,19 @@
+<snippet>
+  <content><![CDATA[
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+  <display-name>$1</display-name>
+  <config/>
+  <regions>
+    <region name="$2"/>
+  </regions>
+</layout>
+
+]]></content>
+  <!-- Optional: Tab trigger to activate the snippet -->
+  <!-- <tabTrigger>xpLayout</tabTrigger> -->
+  <!-- Optional: Scope the tab trigger will be active in -->
+  <scope>text.xml</scope>
+  <!-- Optional: Description to show in the menu -->
+  <description>Enonic XP - Layout</description>
+</snippet>

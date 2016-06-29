@@ -1,0 +1,17 @@
+<snippet>
+  <content><![CDATA[
+<item-set name="$1">
+  <label>$2</label>
+  <occurrences minimum="$3" maximum="$4"/>
+  <items>
+    ${5:$SELECTION}
+  </items>
+</item-set>
+
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <!-- <tabTrigger>xpItemSet</tabTrigger> -->
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>text.xml</scope>
+  <description>Enonic XP - Item Set</description>
+</snippet>

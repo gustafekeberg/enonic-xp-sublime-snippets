@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+<input name="$1" type="Double">
+	<label>$2</label>
+	<default>${3:3.14159265359}</default>
+</input>
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>xpDouble</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.xml</scope>
+	<description>Enonic XP - Double</description>
+</snippet>

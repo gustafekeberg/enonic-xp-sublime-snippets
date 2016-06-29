@@ -1,0 +1,20 @@
+<snippet>
+  <content><![CDATA[
+<input name="$1" type="ContentSelector">
+  <label>$2</label>
+  <occurrences minimum="$3" maximum="$4"/>
+  <config>
+    <relationship>system:reference</relationship>
+    <allowType>$5</allowType>
+    <allowPath>\${site\}/$6/</allowPath>
+  </config>
+</input>
+
+]]></content>
+  <!-- Optional: Tab trigger to activate the snippet -->
+  <!-- <tabTrigger>xpContentSelector</tabTrigger> -->
+  <!-- Optional: Scope the tab trigger will be active in -->
+  <scope>text.xml</scope>
+  <!-- Optional: Description to show in the menu -->
+  <description>Enonic XP - ContentSelector</description>
+</snippet>

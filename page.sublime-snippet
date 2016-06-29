@@ -1,0 +1,21 @@
+<snippet>
+  <content><![CDATA[
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+  <display-name>$1</display-name>
+  <config>
+    $3
+  </config>
+  <regions>
+    <region name="$2"/>
+  </regions>
+</page>
+
+]]></content>
+  <!-- Optional: Tab trigger to activate the snippet -->
+  <!-- <tabTrigger>xpPage</tabTrigger> -->
+  <!-- Optional: Scope the tab trigger will be active in -->
+  <scope>text.xml</scope>
+  <!-- Optional: Description to show in the menu -->
+  <description>Enonic XP - Page</description>
+</snippet>
