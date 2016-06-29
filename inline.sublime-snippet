@@ -1,0 +1,8 @@
+<snippet>
+	<content><![CDATA[
+<inline mixin="$1"/>
+]]></content>
+	<tabTrigger>xpInline</tabTrigger>
+	<scope>text.xml</scope>
+	<description>Enonic XP - inline</description>
+</snippet>
