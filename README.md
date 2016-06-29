@@ -57,9 +57,9 @@ Included snippets:
 </mappings>
 
 ]]></content>
-  <tabTrigger>xpMappingsw</tabTrigger>
+  <tabTrigger>xpMappings</tabTrigger>
   <scope>text.xml</scope>
-  <description>Enonic XP - Mappingsw</description>
+  <description>Enonic XP - Mappings</description>
 </snippet>
 ```
 
