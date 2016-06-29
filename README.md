@@ -34,12 +34,10 @@ Included snippets:
 ```xml
 <snippet>
   <content><![CDATA[
-<!-- $1 -->
-<mapping controller="$2">
-  <match>${3:type:'portal:fragment'}</match>
-  ${4:<pattern invert="${5:true}">${6:.*\/_\/.*}</pattern>}
+<mapping controller="$1">
+  <match>${2:type:'portal:fragment'}</match>
+  ${3:<pattern invert="${4:true}">${5:.*\/_\/.*}</pattern>}
 </mapping>
-
 ]]></content>
   <tabTrigger>xpMapping</tabTrigger>
   <scope>text.xml</scope>
@@ -55,7 +53,6 @@ Included snippets:
 <mappings>
   ${1:$SELECTION}
 </mappings>
-
 ]]></content>
   <tabTrigger>xpMappings</tabTrigger>
   <scope>text.xml</scope>
@@ -71,7 +68,6 @@ Included snippets:
 <filters>
   ${1:$SELECTION}
 </filters>
-
 ]]></content>
   <tabTrigger>xpFilters</tabTrigger>
   <scope>text.xml</scope>
@@ -85,7 +81,6 @@ Included snippets:
 <snippet>
   <content><![CDATA[
 <response-filter name="$1" order="$2"/>
-
 ]]></content>
   <tabTrigger>xpResponseFilter</tabTrigger>
   <scope>text.xml</scope>
@@ -102,10 +97,9 @@ Included snippets:
 <mixin>
   <display-name>$1</display-name>
   <items>
-    $2
+    $0
   </items>
 </mixin>
-
 ]]></content>
   <tabTrigger>xpMixin</tabTrigger>
   <scope>text.xml</scope>
@@ -119,7 +113,6 @@ Included snippets:
 <snippet>
   <content><![CDATA[
 <x-data mixin="$1"/>
-
 ]]></content>
   <tabTrigger>xpXData</tabTrigger>
   <scope>text.xml</scope>
@@ -135,22 +128,15 @@ Included snippets:
 <?xml version="1.0" encoding="UTF-8"?>
 <content-type>
   <display-name>$1</display-name>
-  <!-- <content-display-name-script>$('firstName', ' ', 'lastName')</content-display-name-script> -->
-  <super-type>base:structured</super-type>
-  <is-abstract>false</is-abstract>
-  <is-final>true</is-final>
-  <allow-child-content>true</allow-child-content>
+  ${2:<content-display-name-script>\$('$3', '$4')</content-display-name-script>}
+  <super-type>${5:base:structured}</super-type>
+  <is-abstract>${6:false}</is-abstract>
+  <is-final>${7:true}</is-final>
+  <allow-child-content>${8:true}</allow-child-content>
   <form>
-    ${2:<!-- <input name="2" type="ComboBox">
-      <label>Choice1</label>
-      <occurrences minimum="0" maximum="1"/>
-      <config>
-        ...
-      </config>
-    </input> -->}
+    $0
   </form>
 </content-type>
-
 ]]></content>
   <tabTrigger>xpContentType</tabTrigger>
   <scope>text.xml</scope>
@@ -173,7 +159,6 @@ Included snippets:
     <region name="$2"/>
   </regions>
 </page>
-
 ]]></content>
   <tabTrigger>xpPage</tabTrigger>
   <scope>text.xml</scope>
@@ -194,7 +179,6 @@ Included snippets:
     <region name="$2"/>
   </regions>
 </layout>
-
 ]]></content>
   <tabTrigger>xpLayout</tabTrigger>
   <scope>text.xml</scope>
@@ -214,12 +198,11 @@ Included snippets:
     <field-set name="$2">
       <label>$3</label>
       <items>
-        $4
+        $0
       </items>
     </field-set>
   </config>
 </part>
-
 ]]></content>
   <tabTrigger>xpPart</tabTrigger>
   <scope>text.xml</scope>
@@ -238,7 +221,6 @@ Included snippets:
     ${3:$SELECTION}
   </items>
 </field-set>
-
 ]]></content>
   <tabTrigger>xpFieldSet</tabTrigger>
   <scope>text.xml</scope>
@@ -255,10 +237,9 @@ Included snippets:
   <label>$2</label>
   <occurrences minimum="$3" maximum="$4"/>
   <items>
-    ${5:$SELECTION}
+    ${0:$SELECTION}
   </items>
 </item-set>
-
 ]]></content>
   <tabTrigger>xpItemSet</tabTrigger>
   <scope>text.xml</scope>
@@ -276,7 +257,6 @@ Included snippets:
   <occurrences minimum="$3" maximum="$4"/>
   <config/>
 </input>
-
 ]]></content>
   <tabTrigger>xpAttachmentUploader</tabTrigger>
   <scope>text.xml</scope>
@@ -294,7 +274,6 @@ Included snippets:
   <occurrences minimum="0" maximum="1"/>
   <default>${3:checked}</default>
 </input>
-
 ]]></content>
   <tabTrigger>xpCheckBox</tabTrigger>
   <scope>text.xml</scope>
@@ -315,7 +294,6 @@ Included snippets:
   </config>
   <default>$5</default>
 </input>
-
 ]]></content>
   <tabTrigger>xpComboBox</tabTrigger>
   <scope>text.xml</scope>
@@ -337,7 +315,6 @@ Included snippets:
     <allowPath>\${site\}/$6/</allowPath>
   </config>
 </input>
-
 ]]></content>
   <tabTrigger>xpContentSelector</tabTrigger>
   <scope>text.xml</scope>
@@ -357,7 +334,6 @@ Included snippets:
     <timezone>${5:true}</timezone>
   </config>
 </input>
-
 ]]></content>
   <tabTrigger>xpDate</tabTrigger>
   <scope>text.xml</scope>
@@ -377,7 +353,6 @@ Included snippets:
     <timezone>${5:true}</timezone>
   </config>
 </input>
-
 ]]></content>
   <tabTrigger>xpDateTime</tabTrigger>
   <scope>text.xml</scope>
@@ -394,7 +369,6 @@ Included snippets:
   <label>$2</label>
   <default>${3:3.14159265359}</default>
 </input>
-
 ]]></content>
   <tabTrigger>xpDouble</tabTrigger>
   <scope>text.xml</scope>
@@ -411,7 +385,6 @@ Included snippets:
   <label>$2</label>
   <occurrences minimum="$3" maximum="$4"/>
 </input>
-
 ]]></content>
   <tabTrigger>xpGeoPoint</tabTrigger>
   <scope>text.xml</scope>
@@ -428,7 +401,6 @@ Included snippets:
   <label>$2</label>
   <default>${3:<h3>Enter data for `$1` here</h3>}</default>
 </input>
-
 ]]></content>
   <tabTrigger>xpHtmlArea</tabTrigger>
   <scope>text.xml</scope>
@@ -448,7 +420,6 @@ Included snippets:
     <allowPath>${5:./*}</allowPath>
   </config>
 </input>
-
 ]]></content>
   <tabTrigger>xpImageSelector</tabTrigger>
   <scope>text.xml</scope>
@@ -465,7 +436,6 @@ Included snippets:
   <label>$2</label>
   <default>${3:42}</default>
 </input>
-
 ]]></content>
   <tabTrigger>xpLong</tabTrigger>
   <scope>text.xml</scope>
@@ -486,12 +456,11 @@ Included snippets:
   </config>
   <default>$5</default>
 </input>
-
 ]]></content>
-    <tabTrigger>xpRadioButton</tabTrigger>
-    <scope>text.xml</scope>
-    <description>Enonic XP - RadioButton</description>
-  </snippet>
+  <tabTrigger>xpRadioButton</tabTrigger>
+  <scope>text.xml</scope>
+  <description>Enonic XP - RadioButton</description>
+</snippet>
 ```
 
 ## input-Tag.sublime-snippet
@@ -503,7 +472,6 @@ Included snippets:
   <label>$2</label>
   <occurrences minimum="$3" maximum="$4"/>
 </input>
-
 ]]></content>
   <tabTrigger>xpTag</tabTrigger>
   <scope>text.xml</scope>
@@ -520,7 +488,6 @@ Included snippets:
   <label>$2</label>
   <default>${3:Description goes here}</default>
 </input>
-
 ]]></content>
   <tabTrigger>xpTextArea</tabTrigger>
   <scope>text.xml</scope>
@@ -541,11 +508,10 @@ Included snippets:
   </config>
   <default>$6</default>
 </input>
-
 ]]></content>
-  <tabTrigger>xpTextLin</tabTrigger>
+  <tabTrigger>xpTextLine</tabTrigger>
   <scope>text.xml</scope>
-  <description>Enonic XP - TextLin</description>
+  <description>Enonic XP - TextLine</description>
 </snippet>
 ```
 
@@ -558,7 +524,6 @@ Included snippets:
   <label>$2</label>
   <occurrences minimum="$3" maximum="$4"/>
 </input>
-
 ]]></content>
   <tabTrigger>xpTime</tabTrigger>
   <scope>text.xml</scope>
