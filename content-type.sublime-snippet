@@ -1,26 +1,19 @@
 <snippet>
-  <content><![CDATA[
+	<content><![CDATA[
 <?xml version="1.0" encoding="UTF-8"?>
 <content-type>
-  <display-name>$1</display-name>
-  <!-- <content-display-name-script>$('firstName', ' ', 'lastName')</content-display-name-script> -->
-  <super-type>base:structured</super-type>
-  <is-abstract>false</is-abstract>
-  <is-final>true</is-final>
-  <allow-child-content>true</allow-child-content>
-  <form>
-    ${2:<!-- <input name="2" type="ComboBox">
-      <label>Choice1</label>
-      <occurrences minimum="0" maximum="1"/>
-      <config>
-        ...
-      </config>
-    </input> -->}
-  </form>
+	<display-name>$1</display-name>
+	${2:<content-display-name-script>\$('$3', '$4')</content-display-name-script>}
+	<super-type>${5:base:structured}</super-type>
+	<is-abstract>${6:false}</is-abstract>
+	<is-final>${7:true}</is-final>
+	<allow-child-content>${8:true}</allow-child-content>
+	<form>
+		$0
+	</form>
 </content-type>
-
 ]]></content>
-  <tabTrigger>xpContentType</tabTrigger>
-  <scope>text.xml</scope>
-  <description>Enonic XP - Content Type</description>
+	<tabTrigger>xpContentType</tabTrigger>
+	<scope>text.xml</scope>
+	<description>Enonic XP - Content Type</description>
 </snippet>
