@@ -4,10 +4,10 @@
 	<label>$2</label>
 	<occurrences minimum="$3" maximum="$4"/>
 	<config>
-		<relationship>system:reference</relationship>
-		<allowType>$5</allowType>
-		<allowPath>\${site\}/$6/</allowPath>
-	</config>
+		<relationshipType>${5:system:reference}</relationshipType>
+		<allowContentType>$6</allowContentType>
+		<allowPath>${7:\${site\}/$8}</allowPath>
+  </config>
 </input>
 ]]></content>
 	<tabTrigger>xpContentSelector</tabTrigger>
