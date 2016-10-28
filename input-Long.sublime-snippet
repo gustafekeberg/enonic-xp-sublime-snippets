@@ -2,7 +2,8 @@
 	<content><![CDATA[
 <input name="$1" type="Long">
 	<label>$2</label>
-	<default>${3:42}</default>
+	<help-text>$3</help-text>
+	<default>${4:42}</default>
 </input>
 ]]></content>
 	<tabTrigger>xpLong</tabTrigger>

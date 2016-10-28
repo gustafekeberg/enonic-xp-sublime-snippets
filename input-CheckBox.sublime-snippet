@@ -2,8 +2,9 @@
 	<content><![CDATA[
 <input name="$1" type="CheckBox">
 	<label>$2</label>
+	<help-text>$3</help-text>	
 	<occurrences minimum="0" maximum="1"/>
-	<default>${3:checked}</default>
+	<default>${4:checked}</default>
 </input>
 ]]></content>
 	<tabTrigger>xpCheckBox</tabTrigger>

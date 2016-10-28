@@ -2,8 +2,9 @@
 	<content><![CDATA[
 <field-set name="$1">
 	<label>$2</label>
+	<help-text>$3</help-text>
 	<items>
-		${3:$SELECTION}
+		${4:$SELECTION}
 	</items>
 </field-set>
 ]]></content>

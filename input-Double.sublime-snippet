@@ -2,7 +2,8 @@
 	<content><![CDATA[
 <input name="$1" type="Double">
 	<label>$2</label>
-	<default>${3:3.14159265359}</default>
+	<help-text>$3</help-text>
+	<default>${4:3.14159265359}</default>
 </input>
 ]]></content>
 	<tabTrigger>xpDouble</tabTrigger>

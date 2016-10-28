@@ -2,7 +2,8 @@
 	<content><![CDATA[
 <item-set name="$1">
 	<label>$2</label>
-	<occurrences minimum="$3" maximum="$4"/>
+	<help-text>$3</help-text>
+	<occurrences minimum="$4" maximum="$5"/>
 	<items>
 		${0:$SELECTION}
 	</items>

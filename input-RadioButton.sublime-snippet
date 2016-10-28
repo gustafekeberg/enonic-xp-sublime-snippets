@@ -2,11 +2,12 @@
 	<content><![CDATA[
 <input name="$1" type="RadioButton">
 	<label>$2</label>
+	<help-text>$3</help-text>
 	<occurrences minimum="0" maximum="0"/>
 	<config>
-		<option value="$3">$4</option>
+		<option value="$4">$5</option>
 	</config>
-	<default>$3</default>
+	<default>$4</default>
 </input>
 ]]></content>
 	<tabTrigger>xpRadioButton</tabTrigger>

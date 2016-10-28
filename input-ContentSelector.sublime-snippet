@@ -2,11 +2,12 @@
 	<content><![CDATA[
 <input name="$1" type="ContentSelector">
 	<label>$2</label>
-	<occurrences minimum="$3" maximum="$4"/>
+	<help-text>$3</help-text>
+	<occurrences minimum="$4" maximum="$5"/>
 	<config>
-		<relationshipType>${5:system:reference}</relationshipType>
-		<allowContentType>$6</allowContentType>
-		<allowPath>${7:\${site\}/$8}</allowPath>
+		<relationshipType>${6:system:reference}</relationshipType>
+		<allowContentType>$7</allowContentType>
+		<allowPath>${8:\${site\}/$9}</allowPath>
   </config>
 </input>
 ]]></content>

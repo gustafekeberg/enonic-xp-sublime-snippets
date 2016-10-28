@@ -2,11 +2,12 @@
 	<content><![CDATA[
 <input name="$1" type="TextLine">
 	<label>$2</label>
-	<occurrences minimum="$3" maximum="$4"/>
+	<help-text>$3</help-text>
+	<occurrences minimum="$4" maximum="$5"/>
 	<config>
-		<regexp>$5</regexp>
+		<regexp>$6</regexp>
 	</config>
-	<default>$6</default>
+	<default>$7</default>
 </input>
 ]]></content>
 	<tabTrigger>xpTextLine</tabTrigger>

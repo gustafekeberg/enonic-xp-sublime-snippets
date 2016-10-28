@@ -2,7 +2,8 @@
 	<content><![CDATA[
 <input name="$1" type="TextArea">
 	<label>$2</label>
-	<default>${3:Description goes here}</default>
+	<help-text>$3</help-text>
+	<default>${4:Description goes here}</default>
 </input>
 ]]></content>
 	<tabTrigger>xpTextArea</tabTrigger>
