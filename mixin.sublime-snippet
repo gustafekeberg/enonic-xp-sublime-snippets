@@ -4,7 +4,7 @@
 <mixin>
 	<display-name>$1</display-name>
 	<items>
-		$0
+		${0:$SELECTION}
 	</items>
 </mixin>
 ]]></content>
