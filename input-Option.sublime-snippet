@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+<option name="$1">
+	<label>$2</label>
+	<help-text>$3</help-text>
+	${4:<items>
+		${5:$SELECTION}
+	</items>}
+</option>
+]]></content>
+	<tabTrigger>xpOption</tabTrigger>
+	<scope>text.xml</scope>
+	<description>Enonic XP - Option</description>
+</snippet>
