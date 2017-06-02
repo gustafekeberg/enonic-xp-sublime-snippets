@@ -1,0 +1,16 @@
+<snippet>
+	<content><![CDATA[
+<option-set name="$1">
+	<label>$2</label>
+	<expanded>${3:true}</expanded>
+	<occurrences minimum="$4" maximum="$5"/>
+	<help-text>$6</help-text>
+	<options minimum="$7" maximum="$8">
+		${0:$SELECTION}
+	</options>
+</option-set>
+]]></content>
+	<tabTrigger>xpOptionSet</tabTrigger>
+	<scope>text.xml</scope>
+	<description>Enonic XP - Option Set</description>
+</snippet>
