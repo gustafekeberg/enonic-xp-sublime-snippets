@@ -3,8 +3,9 @@
 <option name="$1">
 	<label>$2</label>
 	<help-text>$3</help-text>
-	${4:<items>
-		${5:$SELECTION}
+	<default>${4:true}</default>
+	${5:<items>
+		${6:$SELECTION}
 	</items>}
 </option>
 ]]></content>
